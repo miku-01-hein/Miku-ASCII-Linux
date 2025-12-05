@@ -89,7 +89,7 @@ install_dependencies() {
             PKG_MANAGER="pacman"                               # 包管理器命令
             PKG_UPDATE="sudo $PKG_MANAGER -Sy"                 # -S同步数据库，-y下载最新数据库
             PKG_INSTALL="sudo $PKG_MANAGER -S --noconfirm"     # --noconfirm自动确认安装
-            PKGS="gcc pkg-config opencv mpv"                  # 需要安装的包列表
+            PKGS="gcc pkgconf opencv mpv"                  # 需要安装的包列表
             ;;
         *)
             # 不支持的发行版
