@@ -9,6 +9,7 @@
 - 将一些计算拉取到独立函数例如亮度计算和字符的优先级
 - 确保循环内没有不必要的内存分配和空指针
 
+
 脚本 `start.sh` 仅适用与RHEL、Debian、Arch系
 其他发行版请自行安装或手动编译所需依赖
 
@@ -25,6 +26,15 @@
 将  `./miku miku.mp4 ascii.mp4 150 1.5` 中的miku.mp4修改
 再到第218行中
 将 `mpv miku.mp4 & mpv ascii.mp4` 中的miku.mp4修改
+
+ # 关于作者为什么需要AI大模型帮写: 
+  因为作者不太会写C++代码, 主要有时没有时间来写, 所以老早就在自己的GNU/Linux系统中部署了一套14B参数的GPT4all大模型来为我干剩下没干完的活, 这样听着很不可思议对吧？但恰恰这就是展现了AI的好处特别是在本地部署的AI大模型 能够直接控制你的个人计算机进行测试.
+
+ # 此开源大模型的安装方式:
+   - wget https://gpt4all.io/installers/gpt4all-installer-linux.run
+   - chmod +x gpt4all-installer-linux.run
+   - ./gpt4all-installer-linux.run
+
 
 感谢您收看此视觉盛宴 非常感谢您的支持
 有提问可发送到我的邮箱 [3623241078@qq.com]
