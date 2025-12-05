@@ -35,6 +35,10 @@
    - chmod +x gpt4all-installer-linux.run
    - ./gpt4all-installer-linux.run
 
+开源大模型本地部署安装预览
+![Preview](https://github.com/miku-01-hein/Miku-ASCII-Linux/blob/main/gpt.png)
+下面还有更多的模型可供选择
+感兴趣的可以去真心建议试一试👍
 
 感谢您收看此视觉盛宴 非常感谢您的支持
 有提问可发送到我的邮箱 [3623241078@qq.com]
