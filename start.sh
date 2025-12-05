@@ -3,8 +3,8 @@
 # ========================================
 # 彩色ASCII视频转换器启动脚本
 # 功能：自动检测系统、安装依赖、编译程序、转换视频并播放
-# 作者：miku-01-hein
-# 版本：2.0
+# 作者：miku-01-hein + GPT5
+# 版本：v2.01
 # ========================================
 
 # 彩色输出函数定义
@@ -71,7 +71,7 @@ install_dependencies() {
             PKG_MANAGER="apt-get"                              # 包管理器命令
             PKG_UPDATE="sudo $PKG_MANAGER update"              # 更新包列表命令
             PKG_INSTALL="sudo $PKG_MANAGER install -y"         # 安装包命令（-y自动确认）
-            PKGS="g++ pkg-config libopencv-dev mpv"           # 需要安装的包列表
+            PKGS="g++ build-essential libopencv-dev mpv"           # 需要安装的包列表
             ;;
         fedora|centos|rhel|rocky)
             # RedHat系发行版（Fedora、CentOS、RHEL、Rocky Linux等）
