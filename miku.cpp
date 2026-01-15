@@ -4,7 +4,7 @@
  * 编译命令：g++ -O3 -march=native -std=c++17 -o miku miku.cpp `pkg-config --cflags --libs opencv4` -lpthread
  * 使用示例：./miku input.mp4 output.mp4 80
  *
- * 作者: miku-01-hein + GPT
+ * 作者: MikuTrive + GPT
  *
  * 工作原理：
  * 1. 读取输入视频的每一帧
